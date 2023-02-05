@@ -1,20 +1,26 @@
 export const colors = {
-  white: '#FFF',
+  white: '#F6F6F6',
   black: '#000',
 
-  gray100: '#E1E1E6',
+  grayBlue100: '#ADB8CC',
+  grayBlue200: '#7D8FB3',
+  grayBlue300: '#6B7A99',
+
+  gray100: '#D0D5DD',
   gray200: '#A9A9B2',
   gray400: '#7C7C8A',
   gray500: '#505059',
-  gray600: '#323238',
+  gray600: '#363942',
   gray700: '#29292E',
   gray800: '#202024',
   gray900: '#121214',
 
-  ignite300: '#00B37E',
-  ignite500: '#00875F',
-  ignite700: '#015F43',
-  ignite900: '#00291D',
+  lead50: '#FEEBDC',
+  lead100: '#FDD2B1',  
+  lead300: '#FFA059',
+  lead500: '#ED8537', 
+  lead700: '#B75F1E',   
 
-  test: '#fff',
+  orange300: '#FF4A04',
+  orange500: '#FF6633',
 }
