@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@lead-ui/react'
+import { Card, Text, TextInput, TextInputProps } from '@lead-ui/react'
 
 export default {
   title: 'Form/Text Input',
@@ -8,13 +8,13 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <Box
+        <Card
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
           <Text size="sm">Email address</Text>
           {Story()}
-        </Box>
+        </Card>
       )
     },
   ],

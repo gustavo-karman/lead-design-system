@@ -8,7 +8,7 @@ export interface MultiStepProps {
 export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
   return (
     <MultiStepContainer>
-      <Label>
+      <Label css={{ color:"$lead800" }}>
         Passo {currentStep} de {size}
       </Label>
 
