@@ -20,6 +20,7 @@ export const colors = {
   lead300: '#FFA059',
   lead500: '#ED8537', 
   lead700: '#B75F1E',   
+  lead800: '#8C3C00',
 
   orange300: '#FF4A04',
   orange500: '#FF6633',

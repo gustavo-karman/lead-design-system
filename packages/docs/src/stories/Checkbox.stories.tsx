@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Checkbox, CheckboxProps } from '@lead-ui/react'
+import { Card, Text, Checkbox, CheckboxProps } from '@lead-ui/react'
 
 export default {
   title: 'Form/Checkbox',
@@ -8,13 +8,13 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <Box
+        <Card
           as="label"
           css={{ display: 'flex', flexDirection: 'row', gap: '$2' }}
         >
           {Story()}
-          <Text size="sm">Accept terms of use</Text>
-        </Box>
+          <Text size="sm" css={{ color: '$lead500'}}>Aceitar termos de uso</Text>
+        </Card>
       )
     },
   ],
