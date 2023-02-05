@@ -1,0 +1,2 @@
+import{A as t}from"./index.0261e095.js";import"./index.87f4518c.js";import"./iframe.9da84b3f.js";import"./index.b3d44c7d.js";import"./jsx-runtime.b23b90ea.js";const m={title:"Data display/Avatar",component:t,args:{src:"https://github.com/gustavo-karman.png",alt:"Gustavo Karman"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},n=["Primary","WithFallback"];export{p as Primary,c as WithFallback,n as __namedExportsOrder,m as default};
+//# sourceMappingURL=Avatar.stories.ad98ce9b.js.map
